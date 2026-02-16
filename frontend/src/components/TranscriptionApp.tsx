@@ -58,11 +58,48 @@ export default function TranscriptionApp() {
     }
   };
 
+  const fallbackCopyTextToClipboard = (text: string) => {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    
+    // Ensure the textarea is not visible or affecting layout
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+    textArea.style.opacity = "0";
+
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+
+    try {
+      const successful = document.execCommand('copy');
+      if (successful) {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      }
+    } catch (err) {
+      console.error('Fallback: Unable to copy', err);
+    }
+
+    document.body.removeChild(textArea);
+  };
+
   const copyToClipboard = () => {
     if (result) {
-      navigator.clipboard.writeText(result.text);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(result.text)
+          .then(() => {
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+          })
+          .catch((err) => {
+            console.error('Clipboard API failed, using fallback:', err);
+            fallbackCopyTextToClipboard(result.text);
+          });
+      } else {
+        fallbackCopyTextToClipboard(result.text);
+      }
     }
   };
 
