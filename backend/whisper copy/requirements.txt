@@ -1,0 +1,11 @@
+openai-whisper
+torch
+numpy
+torchaudio
+soundfile
+fastapi
+uvicorn
+python-multipart
+ffmpeg
+httpx
+mlx-whisper
