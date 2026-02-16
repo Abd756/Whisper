@@ -1,0 +1,56 @@
+[00:23:20.660] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.700] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.746] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.812] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.880] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/client/components/builtin/global-not-found'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.917] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.956] Server  ERROR   ⨯ Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
+[00:23:20.991] Server  ERROR   Error: Cannot find module 'next/dist/pages/_error'
+Require stack:
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\on-demand-entry-handler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\router-server.js
+- E:\Projects\WhisperFrontend\node_modules\next\dist\server\lib\start-server.js
