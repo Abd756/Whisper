@@ -18,11 +18,6 @@ export default function Home() {
       </div>
 
       <footer className="mt-20 border-t border-white/5 py-12 text-center space-y-4">
-        <div className="flex items-center justify-center gap-8 text-sm text-gray-500">
-          <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition-colors">Contact Support</a>
-        </div>
         <p className="text-gray-600 text-xs text-center">
           Built with Next.js, Tailwind CSS & Whisper AI. Powered by ngrok.
         </p>

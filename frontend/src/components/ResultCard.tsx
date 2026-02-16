@@ -11,11 +11,12 @@ interface ResultCardProps {
     language: string;
   };
   onCopy: () => void;
+  onDownload: () => void;
   copied: boolean;
   onReset: () => void;
 }
 
-export default function ResultCard({ result, onCopy, copied, onReset }: ResultCardProps) {
+export default function ResultCard({ result, onCopy, onDownload, copied, onReset }: ResultCardProps) {
   return (
     <motion.div 
       initial={{ opacity: 0, scale: 0.95 }}
@@ -64,11 +65,11 @@ export default function ResultCard({ result, onCopy, copied, onReset }: ResultCa
       <div className="p-4 bg-white/5 border-t border-white/10 flex justify-between items-center px-6">
         <span className="text-xs text-gray-500 font-mono">ENCRYPTED END-TO-END</span>
         <div className="flex gap-4">
-           <button className="text-xs text-gray-500 hover:text-white transition-colors flex items-center gap-1">
+           <button 
+            onClick={onDownload}
+            className="text-xs text-gray-500 hover:text-white transition-colors flex items-center gap-1"
+          >
              <Download size={14} /> Download TXT
-           </button>
-           <button className="text-xs text-gray-500 hover:text-white transition-colors flex items-center gap-1">
-             <Share2 size={14} /> Share
            </button>
         </div>
       </div>

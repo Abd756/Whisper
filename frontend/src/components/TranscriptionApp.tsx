@@ -103,6 +103,18 @@ export default function TranscriptionApp() {
     }
   };
 
+  const handleDownload = () => {
+    if (result) {
+      const element = document.createElement("a");
+      const file = new Blob([result.text], { type: 'text/plain' });
+      element.href = URL.createObjectURL(file);
+      element.download = `transcription_${result.session_id}.txt`;
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+    }
+  };
+
   const reset = () => {
     setFile(null);
     setResult(null);
@@ -206,6 +218,7 @@ export default function TranscriptionApp() {
             <ResultCard 
               result={result} 
               onCopy={copyToClipboard} 
+              onDownload={handleDownload}
               copied={copied} 
               onReset={reset} 
             />
